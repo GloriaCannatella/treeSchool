@@ -1,0 +1,30 @@
+/* selettore tag */
+body{
+    background-color:#ac8e33;
+}
+/* selettore classe */
+.navbar {
+    color: blue;
+}
+#title{
+    color: aqua;
+    text-align: center;
+}
+
+
+.navbar{
+   color: #ac8e33;
+}
+
+li{
+list-style-type: none;
+}
+.main_images{
+    border: 2px solid red;
+    width: 50%;
+    height: 50%;
+}
+/* selettore id */
+#image_2 {
+    border: 2px dotted green;
+}
