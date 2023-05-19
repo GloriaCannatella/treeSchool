@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto+Mono:ital@1&display=swap');
+body{
+   background-color: aliceblue;
+   font-family: 'Dosis', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+}
+nav { background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+padding-bottom: 2px;
+border: 2px solid black;
+padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 25px;
+
+}
+.intro {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+
+.corpo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+.corpo1{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+}     
+
+p {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: 'Dosis', sans-serif;
+
+    
+}
+    .images {
+    width: 200px;
+    height: 200px;
+    
+    border: solid black;
+    margin: 10px;  
+    }
+
+a {
+    text-decoration: none;
+    color: inherit;   
+    padding: 10px;
+    transition: all 0.20s;
+}
+a:hover {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+footer {
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+border: 10px  black;
+padding: 20px;
+border-radius: 20px;
+border: solid black;
+margin: 10px;
+}
